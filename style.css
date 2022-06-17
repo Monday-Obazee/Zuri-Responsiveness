@@ -105,6 +105,7 @@ form p a {
   font-style: italic;
   font-size: small;
 }
+
 /*  media quries starts here */
 
 @media screen and (max-width: 768px) {
