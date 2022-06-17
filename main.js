@@ -1,5 +1,10 @@
-let inputElement = document.querySelectorAll(".class1[data-error] input");
+const now = document.querySelectorAll(".p");
 
-inputElement.addEventListener("click", (e) => {
-  e.preventDefault;
-});
+function fun() {
+  for (var i = 0; i < now.length; i++) {
+    var currentEl = now[i];
+    currentEl.style.display = "none";
+  }
+}
+
+fun();

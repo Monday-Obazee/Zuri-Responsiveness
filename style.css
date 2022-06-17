@@ -97,8 +97,7 @@ form p a {
 .class1 {
   margin-bottom: 2rem;
 }
-.class1[data-error]::after {
-  content: attr(data-error);
+.p {
   display: block;
   float: right;
   color: hsl(0, 100%, 74%);
