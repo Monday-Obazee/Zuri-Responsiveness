@@ -12,7 +12,6 @@ body {
   background-size: cover;
   height: 100%;
   background-color: hsl(0, 100%, 74%);
-  background-color: black;
 }
 .container {
   display: flex;
