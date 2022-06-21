@@ -98,9 +98,17 @@ form p a {
 .class1 {
   margin-bottom: 2rem;
 }
+
+/* styling of error message in active state */
+
+.input-box:invalid:focus {
+  background: url(icon-error.svg) no-repeat 96%center #fff;
+  border-radius: 5px;
+  outline: 2px solid hsl(0, 100%, 74%);
+}
 .p {
   display: block;
-  float: right;
+  text-align: right;
   color: hsl(0, 100%, 74%);
   font-style: italic;
   font-size: small;
