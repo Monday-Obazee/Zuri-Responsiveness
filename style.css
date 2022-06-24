@@ -96,7 +96,7 @@ form p a {
   text-decoration: none;
 }
 .class1 {
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* styling of error message in active state */
@@ -106,13 +106,33 @@ form p a {
   border-radius: 5px;
   outline: 2px solid hsl(0, 100%, 74%);
 }
+input:required:focus ~ .p {
+  display: block;
+  color: hsl(0, 100%, 74%);
+  text-align: right;
+  font-size: 13px;
+  font-style: italic;
+}
 .p {
+  display: none;
+}
+input:valid {
+  outline: 2px solid silver;
+}
+input:required {
+  outline: 2px solid transparent;
+}
+
+input[type="email"]:invalid:focus::-webkit-input-placeholder {
+  color: hsl(0, 100%, 74%);
+}
+/* .p {
   display: block;
   text-align: right;
   color: hsl(0, 100%, 74%);
   font-style: italic;
   font-size: small;
-}
+} */
 
 /*  media quries starts here */
 
